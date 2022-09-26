@@ -1,0 +1,19 @@
+CREATE DATABASE Activity;
+
+Use Activity;
+
+CREATE TABLE Visitors (
+ id int(11) NOT NULL,
+ ip_address varchar(50) NOT NULL,
+ arrival_time datetime NOT NULL,
+ quiz_score int(1) NULL,
+ PRIMARY KEY (id)
+);
+
+INSERT INTO Visitors (id, ip_address, arrival_time, quiz_score, user_name, user_activity) VALUES (-6, '::1', '2022-04-24 17:13:19', '5', 'DJ', 'Index|Quiz|Results|Scoreboard');
+INSERT INTO Visitors (id, ip_address, arrival_time, quiz_score, user_name, user_activity) VALUES (-5, '::1', '2022-04-24 17:13:19', '5', 'GJ', 'Index|Quiz|Results|Scoreboard');
+INSERT INTO Visitors (id, ip_address, arrival_time, quiz_score, user_name, user_activity) VALUES (-4, '::1', '2022-04-24 17:13:19', '5', 'Gon', 'Index|Quiz|Results|Scoreboard');
+INSERT INTO Visitors (id, ip_address, arrival_time, quiz_score, user_name, user_activity) VALUES (-3, '::1', '2022-04-24 17:13:19', '5', 'Gin', 'Index|Quiz|Results|Scoreboard');
+INSERT INTO Visitors (id, ip_address, arrival_time, quiz_score, user_name, user_activity) VALUES (-2, '::1', '2022-04-24 17:13:19', '5', 'Daniel', 'Index|Quiz|Results|Scoreboard');
+INSERT INTO Visitors (id, ip_address, arrival_time, quiz_score, user_name, user_activity) VALUES (-1, '::1', '2022-04-24 17:13:19', '5', 'Gianna', 'Index|Quiz|Results|Scoreboard');
+INSERT INTO Visitors (id, ip_address, arrival_time, quiz_score, user_name, user_activity) VALUES (0, '::1', '2022-04-24 17:13:19', '5', 'Jose', 'Index|Quiz|Results|Scoreboard');
